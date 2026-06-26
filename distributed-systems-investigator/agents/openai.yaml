@@ -1,0 +1,4 @@
+interface:
+  display_name: "Distributed Systems Investigator"
+  short_description: "Trace failures across queues, workers, and stores"
+  default_prompt: "Use $distributed-systems-investigator to trace this distributed-system failure end to end."

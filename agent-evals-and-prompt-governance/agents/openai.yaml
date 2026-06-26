@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Evals and Prompt Governance"
+  short_description: "Version prompts and prevent agent regressions"
+  default_prompt: "Use $agent-evals-and-prompt-governance to design an evidence-backed eval and prompt release process."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Next.js App Router"
+  short_description: "Build and review production Next.js App Router apps."
+  default_prompt: "Use Next.js App Router standards to inspect, implement, and verify this project."

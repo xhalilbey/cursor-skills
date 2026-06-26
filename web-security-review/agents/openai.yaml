@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Security Review"
+  short_description: "Review web apps, APIs, auth, and data access for security risks."
+  default_prompt: "Use web security review standards to audit this change before implementation or release."

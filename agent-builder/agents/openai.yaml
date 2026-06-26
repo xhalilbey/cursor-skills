@@ -1,0 +1,4 @@
+interface:
+  display_name: "Upsonic Agent Builder"
+  short_description: "Build reliable Upsonic agents for local models"
+  default_prompt: "Use $agent-builder to design or improve this Upsonic agent workflow for production reliability."
