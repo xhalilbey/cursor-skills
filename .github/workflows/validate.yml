@@ -1,0 +1,22 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  skills:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Frontmatter is valid
+        run: python3 scripts/validate_skills.py
+      - name: README index is up to date
+        run: python3 scripts/build_readme.py --check
+      - name: Bundled scripts compile
+        run: python3 -m compileall -q $(git ls-files '*.py')
